@@ -95,9 +95,10 @@ java -cp ".;lib/mysql-connector-j-9.4.0.jar" LoginForm
 ---
 ## Screenshots
 
- - [Reservation](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Login](https://github.com/matiassingers/awesome-readme)
- - [Cancellation](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [Login](https://github.com/Kishan269565/OIBSIP_Java-Development_Task1/blob/main/login.png)
+ - [Reservation](https://github.com/Kishan269565/OIBSIP_Java-Development_Task1/blob/main/reservation.png)
+ - [Reservation done ](https://github.com/Kishan269565/OIBSIP_Java-Development_Task1/blob/main/successful.png)
+ - [Cancellation](https://github.com/Kishan269565/OIBSIP_Java-Development_Task1/blob/main/cancellation.png)
 ---
 
 ## 🔑 Features
@@ -130,5 +131,6 @@ MySQL accepts YYYY-MM-DD. Convert from DD/MM/YYYY in code before inserting.
 
 
 This project is free to use for educational purposes.
+
 
 
