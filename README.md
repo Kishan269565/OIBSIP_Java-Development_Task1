@@ -58,6 +58,7 @@ CREATE TABLE reservations (
 );
 
 ---
+## 🛠 Prerequisites
 ## ⚙ Configuration
 
 Inside your Java files, update the DB connection string:
@@ -114,3 +115,4 @@ MySQL accepts YYYY-MM-DD. Convert from DD/MM/YYYY in code before inserting.
 
 
 This project is free to use for educational purposes.
+
