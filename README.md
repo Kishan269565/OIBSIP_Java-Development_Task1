@@ -10,7 +10,7 @@ A simple **Java Swing** application for:
 
 ## 📂 Project Structure
 OIBSIP_Java Development_Task1/
-├── LoginForm.java
+**├── LoginForm.java**
 ├── ReservationForm.java
 ├── CancellationForm.java
 └── lib/
@@ -57,8 +57,8 @@ CREATE TABLE reservations (
     destination VARCHAR(50) NOT NULL
 );
 
-
-⚙ Configuration
+---
+## ⚙ Configuration
 
 Inside your Java files, update the DB connection string:
 
@@ -73,8 +73,8 @@ private static final String DB_URL = "jdbc:mysql://sql12.freesqldatabase.com:330
 private static final String DB_USER = "sql12794970";
 private static final String DB_PASSWORD = "yourpassword";
 
-
-💻 Compilation & Running
+---
+## 💻 Compilation & Running
 
 Open terminal in the project folder:
 
@@ -84,12 +84,11 @@ javac -cp ".;lib/mysql-connector-j-9.4.0.jar" LoginForm.java ReservationForm.jav
 2. Run the application (start with login):
 java -cp ".;lib/mysql-connector-j-9.4.0.jar" LoginForm
 
-
-🔑 Features
+---
+## 🔑 Features
 Login Form
 
 Validates user credentials from the users table.
-
 On success → Opens Reservation Form.
 
 Reservation Form
@@ -100,8 +99,8 @@ Date format must be YYYY-MM-DD.
 Cancellation Form
 Accepts PNR number.
 Deletes matching record from reservations table.
-
-Common Errors & Fixes
+---
+## Common Errors & Fixes
 
 1. No suitable driver found
 Ensure mysql-connector-j-9.4.0.jar is in lib/ and included in -cp.
@@ -110,7 +109,8 @@ Make sure your table column names match exactly with your Java INSERT query.
 3. Date format error
 MySQL accepts YYYY-MM-DD. Convert from DD/MM/YYYY in code before inserting.
 
+---
+## 📌 License
 
-📌 License
 
 This project is free to use for educational purposes.
