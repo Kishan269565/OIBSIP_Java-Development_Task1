@@ -1,3 +1,4 @@
+
 # Railway Reservation System (Java + MySQL)
 
 A simple **Java Swing** application for:
@@ -57,9 +58,12 @@ CREATE TABLE reservations (
     destination VARCHAR(50) NOT NULL
 );
 
+``` 
 ---
-## 🛠 Prerequisites
+
+
 ## ⚙ Configuration
+``` 
 
 Inside your Java files, update the DB connection string:
 
@@ -73,46 +77,58 @@ Example (FreeSQLDatabase.com):
 private static final String DB_URL = "jdbc:mysql://sql12.freesqldatabase.com:3306/sql12794970";
 private static final String DB_USER = "sql12794970";
 private static final String DB_PASSWORD = "yourpassword";
-
+``` 
 ---
 ## 💻 Compilation & Running
 
 Open terminal in the project folder:
 
 1. Compile all Java files:
+``` 
 javac -cp ".;lib/mysql-connector-j-9.4.0.jar" LoginForm.java ReservationForm.java CancellationForm.java
+``` 
 
 2. Run the application (start with login):
+``` 
 java -cp ".;lib/mysql-connector-j-9.4.0.jar" LoginForm
-
+``` 
 ---
+## Screenshots
+
+ - [Reservation](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Login](https://github.com/matiassingers/awesome-readme)
+ - [Cancellation](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+---
+
 ## 🔑 Features
 Login Form
-
+``` 
 Validates user credentials from the users table.
 On success → Opens Reservation Form.
-
+``` 
 Reservation Form
-
+``` 
 Filds: Name, Train No, Class Type, Date of Journey, From, To.
 Inserts reservation into reservations table.
 Date format must be YYYY-MM-DD.
 Cancellation Form
 Accepts PNR number.
 Deletes matching record from reservations table.
+``` 
 ---
 ## Common Errors & Fixes
-
+``` 
 1. No suitable driver found
 Ensure mysql-connector-j-9.4.0.jar is in lib/ and included in -cp.
 2. Unknown column 'name'
 Make sure your table column names match exactly with your Java INSERT query.
 3. Date format error
 MySQL accepts YYYY-MM-DD. Convert from DD/MM/YYYY in code before inserting.
-
+``` 
 ---
 ## 📌 License
 
 
 This project is free to use for educational purposes.
+
 
